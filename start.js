@@ -17,7 +17,7 @@ app.post("/api/books", async (req, res) => {
   res.json({ id: result[0].id });
 });
 
-app.get("/api/books", async (req, res) => {
+app.get("/api21082081/books", async (req, res) => {
   console.info(`Getting all books`);
 
   const books = await query("SELECT * FROM tblbook");
